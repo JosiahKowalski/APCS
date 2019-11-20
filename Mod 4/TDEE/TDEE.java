@@ -72,7 +72,8 @@ public class TDEE
                     double metabolicRateRounded = Math.round(metabolicRate * 10d) / 10d;
                     double weightKilogramsRounded = Math.round(weightKilograms * 100d) / 100d;
                     double heightCentimetersRounded = Math.round(heightCentimeters *100d) / 100d;
-            //End of BMR calculation
+
+             //End of BMR calculation
 
         
         // Activity Level Menu
