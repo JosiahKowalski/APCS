@@ -18,7 +18,7 @@ public class TDEE
         // Input: Gather information from user
         System.out.println("Please enter your name: ");
         String name = in.nextLine();
-        System.out.println("Please enter your gender: (M/F): kitty");
+        System.out.println("Please enter your gender: (M/F): ");
         String gender = in.next();
 
         // BMR Calculator
@@ -72,7 +72,6 @@ public class TDEE
                     double metabolicRateRounded = Math.round(metabolicRate * 10d) / 10d;
                     double weightKilogramsRounded = Math.round(weightKilograms * 100d) / 100d;
                     double heightCentimetersRounded = Math.round(heightCentimeters *100d) / 100d;
-
              //End of BMR calculation
 
         
@@ -142,11 +141,14 @@ public class TDEE
         // Calculate TDEE
         double tDEE = metabolicRateRounded * activityFactor;
 
+        // TDEE rounded
+        double roundedTDEE = Math.round(tDEE * 10d) / 10d;
+
         // Output: Print Results
         System.out.println("Name: " + name + "\t\t\tGender: " + gender);
         System.out.println("Weight: " + weightKilogramsRounded + " kg \t\tHeight: " + heightCentimetersRounded + " cm");
         System.out.println("BMR: " + metabolicRateRounded + " calories " + "\t\tActivity Factor: " + activityFactor);
-        System.out.println("TDEE: " + tDEE + " calories ");
+        System.out.println("TDEE: " + roundedTDEE + " calories ");
 
     } catch(Exception e) {
     } finally {
