@@ -18,7 +18,7 @@ public class TDEE
         // Input: Gather information from user
         System.out.println("Please enter your name: ");
         String name = in.nextLine();
-        System.out.println("Please enter your gender: (M/F): ");
+        System.out.println("Please enter your gender: (M/F): kitty");
         String gender = in.next();
 
         // BMR Calculator
