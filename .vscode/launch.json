@@ -6,6 +6,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CoinFlipper",
+            "request": "launch",
+            "mainClass": "CoinFlipper"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HeadsOrTails_v1",
+            "request": "launch",
+            "mainClass": "HeadsOrTails_v1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RandomMethodDemo",
+            "request": "launch",
+            "mainClass": "RandomMethodDemo"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

@@ -7,7 +7,7 @@
 import java.util.Scanner;
 import javax.activity.ActivityCompletedException;
 import jdk.internal.dynalink.beans.StaticClass;
-public class TDEE
+public class TDEE 
 {
     public static void main(String [] args)
     {
