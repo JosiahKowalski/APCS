@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ConvertFeetToInches",
+            "request": "launch",
+            "mainClass": "ConvertFeetToInches"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CoinFlipper",
             "request": "launch",
             "mainClass": "CoinFlipper"
