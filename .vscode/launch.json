@@ -6,6 +6,31 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TextFileReader",
+            "request": "launch",
+            "mainClass": "TextFileReader"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TextFileReader",
+            "request": "launch",
+            "mainClass": "TextFileReader",
+            "projectName": "APCS_2792bcd0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GuessingGameV2",
+            "request": "launch",
+            "mainClass": "GuessingGameV2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GuessingGameV1",
+            "request": "launch",
+            "mainClass": "GuessingGameV1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ConvertFeetToInches",
             "request": "launch",
             "mainClass": "ConvertFeetToInches"
