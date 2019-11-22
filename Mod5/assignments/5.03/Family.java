@@ -6,15 +6,15 @@
  * @version 11/21/19
  */
 
-import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
+import java.util.Scanner;
 public class Family
 {
     public static void main( String [] args ) throws IOException
     {
         // local variables
-        Scanner inFile = new Scanner( new File ( "test2.txt" ) );
+        Scanner inFile = new Scanner( new File ( "MaleFemaleInFamily.txt" ) );
         String token = "";
         int counter = 0;
         int BBCounter = 0;
