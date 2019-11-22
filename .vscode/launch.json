@@ -6,46 +6,15 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Family",
+            "request": "launch",
+            "mainClass": "Family"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TextFileReader",
             "request": "launch",
             "mainClass": "TextFileReader"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - TextFileReader",
-            "request": "launch",
-            "mainClass": "TextFileReader",
-            "projectName": "APCS_2792bcd0"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - GuessingGameV2",
-            "request": "launch",
-            "mainClass": "GuessingGameV2"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - GuessingGameV1",
-            "request": "launch",
-            "mainClass": "GuessingGameV1"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - ConvertFeetToInches",
-            "request": "launch",
-            "mainClass": "ConvertFeetToInches"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - CoinFlipper",
-            "request": "launch",
-            "mainClass": "CoinFlipper"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - HeadsOrTails_v1",
-            "request": "launch",
-            "mainClass": "HeadsOrTails_v1"
         },
         {
             "type": "java",
@@ -57,13 +26,8 @@
             "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-TDEE",
-            "request": "launch",
-            "mainClass": "TDEE"
+            "mainClass": "${file}",
+            "cwd": "${fileDirname}"
         }
     ]
 }
