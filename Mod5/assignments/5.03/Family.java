@@ -1,5 +1,5 @@
 /**
- * Calculates the probability that a family with two children will consist of 
+ * Determines the probability that a family with two children will consist of 
  * two boys, a boy and a girl, or two girls. 
  * 
  * @author Josiah K.
@@ -13,18 +13,18 @@ public class Family
 {
     public static void main( String [] args ) throws IOException
     {
-        //local variables
+        // local variables
         Scanner inFile = new Scanner( new File ( "test2.txt" ) );
         String token = "";
+        int counter = 0;
         int BBCounter = 0;
         int BGCounter = 0;
         int GGCounter = 0;
-        int counter = 0;
         double BBPercent = 0.0;
         double BGPercent = 0.0;
         double GGPercent = 0.0;
         
-        //while loop to process file
+        // while loop to process file
         while ( inFile.hasNextLine() )
         {
             token = inFile.nextLine();
@@ -52,19 +52,19 @@ public class Family
             counter++;
         }
         
-        //percentage calculations
+        // percent calculations
         BBPercent = (int)((double) BBCounter / counter * 10000) / 100.0;
         BGPercent = (int)((double) BGCounter / counter * 10000) / 100.0;
         GGPercent = (int)((double) GGCounter / counter * 10000) / 100.0;
         
-        //printed output
+        // printed output
         System.out.println();
         System.out.println( "Sample Size: " + counter + " families" );
-        System.out.println( "Two Boys: " + BBPercent + " percent" );
-        System.out.println( "One Boy One Girl: " + BGPercent + " percent" );
-        System.out.println( "Two Girls: " + GGPercent + " percent" );
+        System.out.println( "Two Boys: " + BBPercent + "%" );
+        System.out.println( "One Boy One Girl: " + BGPercent + "%" );
+        System.out.println( "Two Girls: " + GGPercent + "%" );
         
-        //closing file
+        // closing file
         inFile.close();
         
     }
