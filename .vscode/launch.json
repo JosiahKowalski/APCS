@@ -6,6 +6,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DiceProbabilityV_2",
+            "request": "launch",
+            "mainClass": "DiceProbabilityV_2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - random",
+            "request": "launch",
+            "mainClass": "random"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - odometer",
+            "request": "launch",
+            "mainClass": "odometer"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Family",
             "request": "launch",
             "mainClass": "Family"
