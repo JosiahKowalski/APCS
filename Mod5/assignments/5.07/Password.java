@@ -24,7 +24,7 @@ public class Password
         
         // displays a selection menu
         System.out.println();
-        System.out.println("\t\t\t\t Password Generator Menu \t\t\t\t");
+        System.out.println("\t\t     Password Generator Menu");
         System.out.println("******************************************************************");
         System.out.println("*\t [1] Lowercase Letters                                   *");
         System.out.println("*\t [2] Lowercase and Numbers                               *");
@@ -45,11 +45,11 @@ public class Password
                 choice = inChoice.nextInt();
                 if (choice > 5 || choice < 1) 
                 {
-                    System.out.println("\n Invalid Option. Please try again.");
+                    System.out.println("\nInvalid Option. Please try again.");
                 }
                 else if (choice == 5) 
                 {
-                    System.out.println("\n Thank you. The password generator will exit now.");
+                    System.out.println("\nThank you. The password generator will exit now.");
                     contChoice = false;
                     contLength = false;
                     cont = false;
@@ -65,7 +65,7 @@ public class Password
                 length = inLength.nextInt();
                 if (length < 6) 
                 {
-                    System.out.println("\n Password length too short. Please try again.");
+                    System.out.println("\nPassword length too short. Please try again.");
                 }
                 else 
                 {
