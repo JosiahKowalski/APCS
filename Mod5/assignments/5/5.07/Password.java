@@ -97,7 +97,7 @@ public class Password
                     randNum = 0;
                     while (!((randNum >= 48 && randNum <= 57) || (randNum >= 65 && randNum <= 90) || (randNum >= 97 && randNum <= 122))) 
                     {
-                        randNum = randList.nextInt(127);
+                        randNum = randList.nextInt(122);
                     }
                     System.out.print((char)randNum);
                 }
@@ -110,7 +110,7 @@ public class Password
                     randNum = 0;
                     while (!((randNum >= 48 && randNum <= 57) || (randNum >= 97 && randNum <= 122))) 
                     {
-                        randNum = randList.nextInt(127);
+                        randNum = randList.nextInt(122);
                     }
                     System.out.print((char)randNum);
                 }
@@ -121,9 +121,9 @@ public class Password
                 for (int i = 1; i <= length; i++) 
                 {
                     randNum = 0;
-                    while (!(randNum >= 97 && randNum <= 122)) 
+                    while (!(randNum >= 97)) 
                     {
-                        randNum = randList.nextInt(127);
+                        randNum = randList.nextInt(122);
                     }
                     System.out.print((char)randNum);
                 }

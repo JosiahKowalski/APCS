@@ -6,6 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AnnualClimate",
+            "request": "launch",
+            "mainClass": "AnnualClimate"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumericArrayDemo1",
+            "request": "launch",
+            "mainClass": "NumericArrayDemo1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Password",
             "request": "launch",
             "mainClass": "Password"
