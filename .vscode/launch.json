@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Password",
+            "request": "launch",
+            "mainClass": "Password"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DiceProbabilityV_2",
             "request": "launch",
             "mainClass": "DiceProbabilityV_2"
