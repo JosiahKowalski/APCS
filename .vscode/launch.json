@@ -6,60 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - AnnualClimate",
-            "request": "launch",
-            "mainClass": "AnnualClimate"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - NumericArrayDemo1",
-            "request": "launch",
-            "mainClass": "NumericArrayDemo1"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Password",
-            "request": "launch",
-            "mainClass": "Password"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - DiceProbabilityV_2",
-            "request": "launch",
-            "mainClass": "DiceProbabilityV_2"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - random",
-            "request": "launch",
-            "mainClass": "random"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - odometer",
-            "request": "launch",
-            "mainClass": "odometer"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Family",
-            "request": "launch",
-            "mainClass": "Family"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - TextFileReader",
-            "request": "launch",
-            "mainClass": "TextFileReader"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - RandomMethodDemo",
-            "request": "launch",
-            "mainClass": "RandomMethodDemo"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}",
