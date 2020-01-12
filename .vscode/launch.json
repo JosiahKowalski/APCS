@@ -6,6 +6,82 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CircleStatsTester",
+            "request": "launch",
+            "mainClass": "CircleStatsTester",
+            "projectName": "APCS_5d2ca448"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NameChange",
+            "request": "launch",
+            "mainClass": "NameChange",
+            "projectName": "APCS_5d2ca448"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DateChange",
+            "request": "launch",
+            "mainClass": "DateChange",
+            "projectName": "APCS_5d2ca448"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AreaOfTriangle",
+            "request": "launch",
+            "mainClass": "AreaOfTriangle",
+            "projectName": "APCS_5d2ca448"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CatapultTester",
+            "request": "launch",
+            "mainClass": "CatapultTester",
+            "projectName": "APCS_5d2ca448"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CO2FootprintTester",
+            "request": "launch",
+            "mainClass": "CO2FootprintTester",
+            "projectName": "APCS_5d2ca448"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CO2FootprintTesterREF",
+            "request": "launch",
+            "mainClass": "CO2FootprintTesterREF",
+            "projectName": "APCS_5d2ca448"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CO2FromWasteTesterREF",
+            "request": "launch",
+            "mainClass": "CO2FromWasteTesterREF",
+            "projectName": "APCS_5d2ca448"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AnnualFuelUseTester",
+            "request": "launch",
+            "mainClass": "AnnualFuelUseTester",
+            "projectName": "APCS_5d2ca448"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShapesV7Tester",
+            "request": "launch",
+            "mainClass": "ShapesV7Tester",
+            "projectName": "APCS_5d2ca448"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CarV3",
+            "request": "launch",
+            "mainClass": "CarV3"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}",
